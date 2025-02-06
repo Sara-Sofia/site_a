@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div id="header">
         <img src={logo} alt="Logo" className="logo" />
-            <h1>My Profile</h1>
+            <h1>Sara-Sofia Kesäniemi</h1>
         
         
     </div>
