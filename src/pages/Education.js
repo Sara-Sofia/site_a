@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Home() {
+export default function Education() {
   return (
     <div> 
-      <h2>Minusta</h2>
+      <h2> Koulutus</h2>
   <p> Tekstiä tekstiä tekstiä</p>
     </div>
   )

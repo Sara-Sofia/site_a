@@ -12,13 +12,16 @@ export default function Navbar() {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <Link class=" nav-link" to="/">Home</Link>
+          <Link class=" nav-link" to="/">Minä</Link>
         </li>
         <li class="nav-item">
-         <Link class="nav-link" to="/about"> About</Link>
+         <Link class="nav-link" to="/about"> Työkokemus</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="/contact">Contact us</Link>
+          <Link class="nav-link" to="/education">Koulutus</Link>
+        </li>
+        <li class="nav-item">
+          <Link class="nav-link" to="/contact">Yhteystiedot</Link>
         </li>
        
       </ul>

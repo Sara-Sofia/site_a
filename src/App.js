@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
+import Education from './pages/Education';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contactus" element={<Contact/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/education" element={<Education/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

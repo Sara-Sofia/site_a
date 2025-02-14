@@ -3,7 +3,7 @@
     align-items: center; /* Vertically align logo and text */
     justify-content: center; /* Center text horizontally */
     padding: 10px 20px;
-    background-image: url(../assets/header_image_2.jpg);
+    background-image: url(../assets/bow.jpg);
     height:260px;
     width:100%;
     background-size:cover;
@@ -15,9 +15,10 @@
         position: absolute; /* Remove text from flow, so we can center it */
         left: 50%; /* Center horizontally */
         transform: translateX(-50%); /* Adjust for exact centering */
+        top: 26%; /* Adjust this value to move it up */
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 
         -2px -2px 4px rgba(255, 255, 255, 0.6);
-        color:#FAF9F6;
+        color:#E35335;
         font-size: 45px;
         letter-spacing: 5px;
        
